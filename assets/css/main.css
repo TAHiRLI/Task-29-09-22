@@ -94,8 +94,8 @@ nav{
     height: 12vh;
     background-color: gray;
     position: sticky;
-    top: 0vh;
-    margin: auto;
+    top: 0;
+
     z-index: 9  ;
     margin-top: 10vh;
 
@@ -159,11 +159,36 @@ transform: translateY(2vh);
 
 
 /* Section about */
+main{
+    top: 90vh;
+    
+} 
 
 .about{
-    height: 100vh;
+    height: 300vh;
+    padding-top: 12vh;
     
-    background-color: red;
+
 }
+.title{
+    font-size: 30px;
+}
+.desc{
+    font-size: 14px;
+    line-height: 20px;
+}
+.quote{
+    border-left: 1px solid gray;
+}
+.quote::before{
+    content: "\"";
+    font-size: 80px;
+    color: gray;
+    position: absolute;
+    top: 0rem;
+    left: 0.5rem;
+
+}
+
 
 /* ================= */

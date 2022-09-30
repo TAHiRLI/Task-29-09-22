@@ -19,7 +19,9 @@
 .justify-end{
     justify-content: end;
 }
-
+.justify-center{
+    justify-content: center;
+}
 .space-between{
     justify-content: space-between;
 
@@ -30,9 +32,10 @@
 .space-evenly{
     justify-content: space-evenly;
 }
-.justify-center{
-    justify-content: center;
+.direction-column{
+    flex-direction: column;
 }
+
 
 /* ========= */
 
@@ -69,6 +72,12 @@
 }
 
 /* ================ */
+
+/* Grid config */
+
+
+
+/* ============== */
 
 
 /* width config */
@@ -218,6 +227,9 @@
 }
 .text-thin{
     font-weight: 200;
+}
+.text-italic{
+    font-style: italic;
 }
 .text-upper{
     text-transform: uppercase;
