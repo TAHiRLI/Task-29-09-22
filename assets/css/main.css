@@ -1,0 +1,169 @@
+
+
+
+/* GLOBALS */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+    padding: .8rem 2.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+}
+button:hover{
+    color: black;
+    background-color: #B7B7B7;
+}
+
+
+/* ================== */
+
+
+/* Header */
+header{
+    top: -10vh;
+   background-size: 100%;
+   background-position: center center;
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-4.jpg) ;
+}
+.header-text{
+    left: 15%;
+    top: 45vh;
+}
+.gear{
+
+    transition: .5s;
+    cursor: pointer;
+    left: -15%;
+    top: 45vh;
+    width: calc(15% + 55px);
+}
+.gif-container{
+    height: 8vh;
+    background-color: gray;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.setting-panel{
+    background-color: black;
+    height: 8vh;
+    line-height: 8vh;
+    padding-left: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.color{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rebeccapurple;
+
+    
+}
+.gear:hover{
+    left:0%;
+}
+
+
+/* Top nav */
+
+.top-nav{
+ background-color: red;
+}
+.top-nav a:hover{
+    color: #ed2a28;
+}
+.top-nav li{
+    border-right: 1px solid white;
+    padding: .1rem 1rem; 
+}
+
+/* ======== */
+
+
+/* Nav */
+nav{
+    height: 12vh;
+    background-color: gray;
+    position: sticky;
+    top: 0vh;
+    margin: auto;
+    z-index: 9  ;
+    margin-top: 10vh;
+
+
+}
+
+.nav-menu{
+    bottom: 0vh;
+}
+.menu:hover > a {
+    color: #ed2a28;
+}
+
+.menu{
+    padding-bottom: 4vh;
+}
+.social-media i{
+    font-size: 30px;
+
+}
+.menu:hover .submenu{
+opacity: 1;
+visibility: visible;
+transform: translateY(2vh);
+}
+#home-submenu{
+    left: 0;
+}
+#about-submenu{
+    left: 10%;
+}
+
+.submenu{
+    transition: 0.3s;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    bottom: -46vh;
+    height: 48vh;
+  
+    width: 15%;
+
+    background-color: aqua;
+}
+.submenu li{
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 2px;
+    padding: .5rem 1rem;
+}
+.submenu li:hover{
+    background-color: #ed2a28;
+}
+.submenu li:hover a{
+    color: white !important;
+
+}
+
+/* ======== */
+
+
+
+/* Section about */
+
+.about{
+    height: 100vh;
+    
+    background-color: red;
+}
+
+/* ================= */

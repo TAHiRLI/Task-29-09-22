@@ -1,0 +1,374 @@
+
+/* Flex config */
+
+.display-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.align-baseline{
+    align-items: baseline;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.justify-end{
+    justify-content: end;
+}
+
+.space-between{
+    justify-content: space-between;
+
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center;
+}
+
+/* ========= */
+
+
+/* Position config */
+.p-fixed{
+    position: fixed;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.b-0{
+    bottom: 0;
+}
+.t-0{
+    top: 0;
+}
+.l-0{
+    left: 0;
+}
+.r-0{
+    right: 0;
+}
+
+
+/* ================ */
+
+/* Display config */
+.d-inline-block{
+    display: inline-block;
+}
+
+/* ================ */
+
+
+/* width config */
+.w-100{
+    width: 100%;
+}
+.w-95{
+    width: 95%;
+}
+.w-90{
+    width: 90%;
+}
+.w-85{
+    width: 85%;
+}
+.w-80{
+    width: 80%;
+}
+.w-75{
+    width: 75%;
+}
+.w-70{
+    width: 70%;
+}
+.w-65{
+    width: 65%;
+}
+.w-60{
+    width: 60%;
+}
+.w-55{
+    width: 55%;
+}
+.w-50{
+    width: 50%;
+}
+.w-45{
+    width: 45%;
+}
+.w-40{
+    width: 40%;
+}
+.w-35{
+    width: 35%;
+}
+.w-30{
+    width: 30%;
+}
+.w-25{
+    width: 25%;
+}
+.w-20{
+    width: 20%;
+}
+.w-15{
+    width: 15%;
+}
+.w-10{
+    width: 10%;
+}
+.w-5{
+    width: 5%;
+}
+/* =============== */
+
+/* height */
+.h-max{
+    height: 100%;
+}
+.h-100{
+    height: 100vh;
+}
+.h-90{
+    height: 90vh;
+}
+.h-80{
+    height: 80vh;
+}
+.h-70{
+    height: 70vh;
+}
+.h-60{
+    height: 60vh;
+}
+.h-50{
+    height: 50vh;
+}
+.h-40{
+    height: 40vh;
+}
+.h-30{
+    height: 30vh;
+}
+.h-20{
+    height: 20vh;
+}
+.h-10{
+    height: 10vh;
+}
+
+/* =============== */
+
+
+/* padding */
+
+
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.5rem;
+}
+.p-3{
+    padding: 2rem;
+}
+.p-4{
+    padding: 2.5rem;
+}
+.p-5{
+    padding: 3rem;
+}
+.p-6{
+    padding: 3.5rem;
+}
+.p-7{
+    padding: 4rem;
+}
+.p-8{
+    padding: 4.5rem;
+}
+.p-9{
+    padding: 5rem;
+}
+/* ========= */
+
+
+
+/* text config */
+.text-center{
+    text-align: center;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-thin{
+    font-weight: 200;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: white ;
+}
+.text-gray{
+ color: #B7B7B7;
+}
+.text-red{
+    color: #ed2a28;
+}
+.text-orange{
+    color: #f4623a;
+}
+.text-green{
+    color: #64a19d;
+}
+.text-brown{
+    color: #4B2613;
+}
+.text-gold{
+    color: goldenrod;
+}
+
+/* ========== */
+
+/* margin config */
+.mg-auto{
+    margin: auto;
+}
+.mgT-10{
+    margin-top: 10px;
+}
+.mgT-20{
+    margin-top: 20px;
+}
+.mgT-30{
+    margin-top: 30px;
+}
+.mgT-40{
+    margin-top: 40px;
+}
+.mgT-50{
+    margin-top: 50px;
+}
+.mgT-60{
+    margin-top: 60px;
+}
+.mgT-70{
+    margin-top: 70px;
+}
+.mgT-80{
+    margin-top: 80px;
+}
+.mgT-90{
+    margin-top: 90px;
+}
+.mgT-100{
+    margin-top: 100px ;
+}
+.mgT-200{
+    margin-top: 200px;
+}
+.mgT-255{
+    margin-top: 255px;
+}
+
+
+.mgL-40{
+    margin-left: 40px;
+}
+.mgL-30{
+    margin-left: 30px;
+}
+.mgL-20{
+    margin-left: 20px;
+}
+
+/* ========= */
+
+/* background config */
+.bg-orange{
+    background-color: #f4623a;
+}
+.bg-red{
+    background-color: #dd003f;
+}
+
+.bg-white{
+    background-color: white;
+}
+.bg-dark-white{
+    background-color: #B7B7B7 ;
+}
+.bg-blue{
+  background-color:    #558985;
+}
+.bg-dark-blue{
+    background-color: #233a50 ;
+}
+.bg-dark{
+   background-color: #020d18;  
+}
+
+.bg-yellow{
+  background-color:    #f5b50a;
+}
+
+.bg-green{
+  background-color:    #a6bb16;
+}
+
+
+/* =============== */
+
+/* z index */
+.z-9{
+    z-index: 9;
+}
+.z-8{
+    z-index: 8;
+}
+.z-7{
+    z-index: 7;
+}
+.z-6{
+    z-index: 6;
+}
+.z-5{
+    z-index: 5;
+}
+.z-4{
+    z-index: 4;
+}
+.z-3{
+    z-index: 3;
+}
+.z-2{
+    z-index: 2;
+}
+.z-1{
+    z-index: 1;
+}
+.z-0{
+    z-index: 0;
+}
+
