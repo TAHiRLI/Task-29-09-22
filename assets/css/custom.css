@@ -216,6 +216,10 @@
 .p-9{
     padding: 5rem;
 }
+
+.p-sec{
+    padding: 10vh 0;
+}
 /* ========= */
 
 
@@ -327,7 +331,7 @@
     background-color: #f4623a;
 }
 .bg-red{
-    background-color: #dd003f;
+    background-color: #ed2a28;
 }
 
 .bg-white{

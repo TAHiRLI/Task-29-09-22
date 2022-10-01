@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,740 +9,1027 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-    />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="assets/css/main.css" />
     <title>Task 29-09-22</title>
-  </head>
-  <body class="p-relative">
+</head>
+
+<body class="p-relative">
     <div class="top-nav w-100 h-10 display-flex justify-end align-center">
-      <ul>
-        <li class="d-inline-block mgL-30"><a href="#"> Favourites</a></li>
-        <li class="d-inline-block mgL-30">
-          <a href="#"> Submit Property</a>
-        </li>
-        <li class="d-inline-block mgL-30"><a href="#"> My Property</a></li>
-        <li class="d-inline-block mgL-30">
-          <a href="#"> Login / Register</a>
-        </li>
-      </ul>
+        <ul>
+            <li class="d-inline-block mgL-30">
+                <a href="#">
+                    <i class="las la-heart"></i> Favourites
+            </a>
+            </li>
+            <li class="d-inline-block mgL-30">
+                <a href="#">
+                    <i class="las la-home"></i> Submit Property
+                </a>
+            </li>
+            <li class="d-inline-block mgL-30">
+                <a href="#"><i class=" las la-home"></i> My Property
+                </a>
+            </li>
+            <li class="d-inline-block mgL-30">
+                <a href="#"><i class="las la-lock"></i> Login / Register</a>
+            </li>
+        </ul>
     </div>
     <nav class="w-100 z-9">
-      <div class="display-flex w-85 h-max mg-auto">
-        <img
-          src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/logo.png"
-          alt=""
-        />
+        <div class="display-flex w-85 h-max mg-auto">
+          
+            <div>
 
-        <div
-          class="text-upper w-85 h-max display-flex p-relative mid-container bg-yellow"
-        >
-          <ul class="display-flex space-between w-100 p-absolute l-0 nav-menu">
-            <li class="d-inline-block menu">
-              <a href="#">homes <i class="las la-angle-down"></i></a>
+                <img class="w-80" src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/logo.png" alt="" />
+            </div>
 
-              <div id="home-submenu" class="submenu">
-                <ul>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">HOME</a></li>
+            <div class="text-upper w-85 mgL-20 h-max display-flex p-relative mid-container ">
+              
+                <ul class="display-flex space-between  w-100 p-absolute l-0 nav-menu">
+                    <li class="d-inline-block menu">
+                        <a href="#">homes <i class="las la-angle-down"></i></a>
+
+                        <div id="home-submenu" class="submenu">
+                            <ul>
+                                <li><a href="#" class="text-white">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">HOME</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">about us <i class="las la-angle-down"></i></a>
+
+                        <div id="about-submenu" class="submenu">
+                            <ul>
+                                <li><a href="#" class="text-white">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">properties <i class="las la-angle-down"></i></a>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">agents <i class="las la-angle-down"></i></a>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">user pages <i class="las la-angle-down"></i></a>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">pages <i class="las la-angle-down"></i></a>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">showcase <i class="las la-angle-down"></i></a>
+                    </li>
+                    <li class="d-inline-block menu">
+                        <a href="#">contact us <i class="las la-angle-down"></i></a>
+                    </li>
                 </ul>
-              </div>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">about us <i class="las la-angle-down"></i></a>
+            </div>
 
-              <div id="about-submenu" class="submenu">
-                <ul>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">About us</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">properties <i class="las la-angle-down"></i></a>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">agents <i class="las la-angle-down"></i></a>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">user pages <i class="las la-angle-down"></i></a>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">pages <i class="las la-angle-down"></i></a>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">showcase <i class="las la-angle-down"></i></a>
-            </li>
-            <li class="d-inline-block menu">
-              <a href="#">contact us <i class="las la-angle-down"></i></a>
-            </li>
-          </ul>
+            <div class="w-15  social-media">
+                <a href="#"><i class=" text-white lab la-facebook-square"></i></a>
+                <a href="#"><i class=" text-white lab la-instagram"></i></a>
+                <a href="#"><i class=" text-white lab la-facebook-square"></i></a>
+                <a href="#"><i class=" text-white lab la-twitter-square"></i></a>
+                <a href="#"><i class=" text-white lab la-pinterest-square"></i></a>
+            </div>
         </div>
-
-        <div class="w-15 bg-green social-media">
-          <a href=""><i class="lab la-facebook-square"></i></a>
-          <a href=""><i class="lab la-instagram"></i></a>
-          <a href=""><i class="lab la-facebook-square"></i></a>
-          <a href=""><i class="lab la-twitter-square"></i></a>
-          <a href=""><i class="lab la-pinterest-square"></i></a>
-        </div>
-      </div>
     </nav>
 
     <header class="h-80 w-100">
-      <div class="header-text p-absolute text-red">
-        <p class="mgT-20">Get firs class</p>
-        <h1 class="mgT-20">Real Property Advice</h1>
-        <p class="mgT-20">
-          With over 10 years of experience helping businesses <br />
-          to find comprehensive solutions
-        </p>
-        <button class="bg-white mgT-20 text-bold">Read More</button>
-        <button class="bg-red mgT-20 mgL-20 text-bold text-white">
-          Contact us
-        </button>
-      </div>
-
-      <div class="gear p-absolute">
-        <div class="setting-panel text-white">Setting panel</div>
-
-        <div class="gif-container p-absolute t-0 r-0 w-20">
-          <img
-            height="100%"
-            src="https://bestanimations.com/media/gears/513504963black-moving-gears-animation.gif"
-            alt="gear"
-            class="p-absolute t-0 r-0"
-          />
+        <div class="header-text p-absolute ">
+            <p class="mgT-20  text-red text-italic ">Get first class</p>
+            <h1 class="mgT-20 text-white ">Real Property Advice</h1>
+            <p class="mgT-20 text text-white ">
+                With over 10 years of experience helping businesses <br />
+                to find comprehensive solutions
+            </p>
+            <button class="bg-white mgT-20 text-bold">Read More</button>
+            <button class="bg-red mgT-20 mgL-20 text-bold text-white">
+                Contact us
+            </button>
         </div>
-        <div
-          class="color-config w-80 h-20 bg-dark-white display-flex wrap space-evenly"
-        >
-          <div class="w-100 text-center mgT-10 text-black text-bold">
-            Normal color schemes
-          </div>
 
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
-          <div class="color"></div>
+        <div class="gear p-absolute">
+            <div class="setting-panel text-white">Setting panel</div>
+
+            <div class="gif-container p-absolute t-0 r-0 w-20">
+                <img height="100%"
+                    src="https://bestanimations.com/media/gears/513504963black-moving-gears-animation.gif" alt="gear"
+                    class="p-absolute t-0 r-0" />
+            </div>
+            <div class="color-config w-80 h-20 bg-dark-white display-flex wrap space-evenly">
+                <div class="w-100 text-center mgT-10 text-black text-bold">
+                    Normal color schemes
+                </div>
+
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
         </div>
-      </div>
     </header>
 
     <main class="w-100">
-      <section class="about w-100">
-        <div class="w-70 display-flex mg-auto">
-          <div class="w-60 h-max bg-green">
-            <div class="">
-              <div class="bg-orange">
-                <h1 class="text-upper title">
-                  ABOUT IDEA HOMES <span class="text-red">REAL ESTATE</span>
+        <section class="about w-100">
+            <div class="w-75 display-flex mg-auto">
+                <div class="w-60 h-max ">
+                    <div class="">
+                        <div class="">
+                            <h1 class="text-upper title">
+                                ABOUT IDEA HOMES <span class="text-red">REAL ESTATE</span>
+                            </h1>
+                            <p class="text-red text-bold text-italic">
+                                A little about us and a breif history of how we started.
+                            </p>
+                            <p class="mgT-20 desc "><small>
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's stan
+                                when an unknown printer took a galley of type and scramble.
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry.</small>
+                            </p>
+                        </div>
+                        <div class="display-flex mgT-20 text-italic desc">
+                            <div class=" w-50">
+                                <i class="las la-check-square"></i>
+                                <span>Pleasure and praising pain was born</span> <br />
+                                <i class="las la-check-square"></i><span> Anyone who loves or pursues or desires</span>
+                                <br />
+                            </div>
+
+                            <div class=" w-50">
+                                <i class="las la-check-square"></i><span> The great explorer of the truth</span> <br />
+                                <i class="las la-check-square"></i><span> The printing and typesetting industry.</span>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="quote w-100 p-4 h-20 mgT-30 p-relative">
+                            <p class="desc text-italic">
+                                Who loves or pursues or desires to obtain pain of itself,
+                                because it is pain, but because occasionally circumstances
+                                occur.
+                            </p>
+                            <h2 class="text-red text-bold mgT-20">
+                                - Ali Farhan, Founder.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-40 display-flex justify-center">
+                    <img height="400px"
+                        src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/about.png"
+                        alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section class="search w-100 h-70">
+            <div class="w-70 mg-auto">
+                <h1 class="title text-white">Advanced Search</h1>
+
+                <div class="w-100 search-grid mgT-60">
+                    <div class="fc">
+                        <label for="keyword">Keyword</label><br />
+
+                        <input type="text" id="keyword" placeholder="Any" />
+                    </div>
+
+                    <div class="sc">
+                        <label for="Location">Location</label><br />
+                        <select name="" id="Location">
+                            <option value="">Any</option>
+                        </select>
+                    </div>
+
+                    <div class="tr">
+                        <label for="Type">Type</label><br />
+                        <select name="" id="Type">
+                            <option value="">Any</option>
+                        </select>
+                    </div>
+
+                    <div class="fr">
+                        <label for="Status">Status</label><br />
+                        <select name="" id="Status">
+                            <option value="">Any</option>
+                        </select>
+                    </div>
+
+                    <div class="  ">
+                        <label for="">Bath Room</label><br />
+                        <select name="" id="">
+                            <option value="">Any</option>
+                        </select>
+                    </div>
+
+                    <div class="  ">
+                        <label for="">Bed Room</label>
+                        <select name="" id="">
+                            <option value="">Any</option>
+                        </select>
+                    </div>
+                    <div class="  ">
+                        <label for="min">Squre flt Min</label>
+                        <input type="numer" name="" id="min" min="0" placeholder="Any" />
+                    </div>
+                    <div class=" ">
+                        <label for="max">Max</label>
+                        <input type="numer" id="max" placeholder="Any" />
+                    </div>
+
+                    <div class="range">
+                        <label for="">Price range</label>
+                        <input class="" type="range" name="" id="" />
+                    </div>
+                    <div>
+                        <button class="bg-red text-bold text-white mgT-20 text-upper">
+                            Search
+                        </button>
+                    </div>
+                </div>
+                <button class="bg-red text-white text-bold mgT-30">
+                    <i class="las la-plus-circle"></i> Show More Options
+                </button>
+            </div>
+        </section>
+
+        <section class="card-section w-100 bg-dark-white">
+            <div class="w-70 mg-auto">
+                <h1 class="title text-upper">
+                    property <span class="text-red">listings</span>
                 </h1>
-                <p class="text-red text-bold text-italic ">
-                  A little about us and a breif history of how we started.
+                <p class="desc">
+                    We have Properties in these Areas View a list of Featured
+                    Properties.
                 </p>
-                <p class="mgT-20 desc">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's stan
-                  when an unknown printer took a galley of type and scramble.
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
-              </div>
-              <div class="display-flex mgT-10 text-italic desc">
-                <div class="bg-white w-50">
-                  <i class="las la-check-square"></i>
-                  <span>Pleasure and praising pain was born</span> <br />
-                  <i class="las la-check-square"></i
-                  ><span> Anyone who loves or pursues or desires</span> <br />
-                </div>
 
-                <div class="bg-red w-50">
-                  <i class="las la-check-square"></i
-                  ><span> The great explorer of the truth</span> <br />
-                  <i class="las la-check-square"></i
-                  ><span> The printing and typesetting industry.</span> <br />
-                </div>
-              </div>
-              <div class="quote w-100 p-4 h-20 mgT-30 p-relative">
-                <p class="desc text-italic">
-                  Who loves or pursues or desires to obtain pain of itself,
-                  because it is pain, but because occasionally circumstances
-                  occur.
-                </p>
-                <h2 class="text-red text-bold mgT-20">
-                  - Ali Farhan, Founder.
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="w-40 display-flex justify-center">
-            <img
-              height="400px"
-              src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/about.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-
-      <section class="search w-100 h-70">
-        <div class="w-70 mg-auto">
-          <h1 class="title text-white">Advanced Search</h1>
-
-          <div class="w-100 search-grid mgT-60">
-            <div class="fc">
-              <label for="keyword">Keyword</label><br />
-
-              <input type="text" id="keyword" placeholder="Any" />
-            </div>
-
-            <div class="sc">
-              <label for="Location">Location</label><br />
-              <select name="" id="Location">
-                <option value="">Any</option>
-              </select>
-            </div>
-
-            <div class="tr">
-              <label for="Type">Type</label><br />
-              <select name="" id="Type">
-                <option value="">Any</option>
-              </select>
-            </div>
-
-            <div class="fr">
-              <label for="Status">Status</label><br />
-              <select name="" id="Status">
-                <option value="">Any</option>
-              </select>
-            </div>
-
-            <div class="  ">
-              <label for="">Bath Room</label><br />
-              <select name="" id="">
-                <option value="">Any</option>
-              </select>
-            </div>
-
-            <div class="  ">
-              <label for="">Bed Room</label>
-              <select name="" id="">
-                <option value="">Any</option>
-              </select>
-            </div>
-            <div class="  ">
-              <label for="min">Squre flt Min</label>
-              <input type="numer" name="" id="min" min="0" placeholder="Any" />
-            </div>
-            <div class=" ">
-              <label for="max">Max</label>
-              <input type="numer" id="max" placeholder="Any" />
-            </div>
-
-            <div class="range">
-              <label for="">Price range</label>
-              <input class="" type="range" name="" id="" />
-            </div>
-            <div>
-              <button class="bg-red text-bold text-white mgT-20 text-upper">
-                Search
-              </button>
-            </div>
-          </div>
-          <button class="bg-red text-white text-bold mgT-30">
-            <i class="las la-plus-circle"></i> Show More Options
-          </button>
-        </div>
-      </section>
-
-      <section class="card-section w-100 bg-dark-white">
-        <div class="w-70 mg-auto">
-          <h1 class="title text-upper">
-            property <span class="text-red">listings</span>
-          </h1>
-          <p class="desc ">
-            We have Properties in these Areas View a list of Featured
-            Properties.
-          </p>
-
-          <div class="cards display-flex wrap space-between">
-            <div class="card bg-white mgT-40">
-              <div class="pic w-100 p-relative">
-                <div
-                  class="card-image"
-                  style="
+                <div class="cards display-flex wrap space-between">
+                    <div class="card bg-white mgT-40">
+                        <div class="pic w-100 p-relative">
+                            <div class="card-image" style="
                     background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
-                  "
-                ></div>
-                <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
-                  <button
-                    class="p-1 move  text-upper w-55 text-bold p-absolute p-center text-white"
-                  >
-                    view details <i class="las la-angle-right transition-5"></i>
-                  </button>
-                </div>
-                <div class="status p-absolute bg-red text-white">For Rent</div>
-                <div
-                  class="info w-100 bg-red text-white display-flex space-evenly align-center"
-                >
-                  <div>
-                    <i class="las la-vector-square"></i>
-                    <small>530 sq ft</small>
-                  </div>
+                  "></div>
+                            <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
+                                <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
+                                    view details <i class="las la-angle-right transition-5"></i>
+                                </button>
+                            </div>
+                            <div class="status p-absolute bg-red text-white">For Rent</div>
+                            <div class="info w-100 bg-red text-white display-flex space-evenly align-center">
+                                <div>
+                                    <i class="las la-vector-square"></i>
+                                    <small>530 sq ft</small>
+                                </div>
 
-                  <div>
-                    <i class="las la-bed"></i>
-                    <small>2</small>
-                  </div>
-                  <div>
-                    <i class="las la-bath"></i>
-                    <small>1 Bathroom</small>
-                  </div>
+                                <div>
+                                    <i class="las la-bed"></i>
+                                    <small>2</small>
+                                </div>
+                                <div>
+                                    <i class="las la-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic-info w-100 p-1">
+                            <h2 class="name">South Mervin Boulevard</h2>
+                            <small class="d-inline-block mgT-10">45 Regent Street, London, UK</small>
+                            <p class="desc mgT-20">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam power nonummy nibh tempor cum soluta nobis…
+                            </p>
+                        </div>
+                        <div class="w-100 mgT-10 review display-flex">
+                            <small class="w-70">$8,600 Per Month</small>
+                            <button class="w-15 h-max"><i class="las la-heart"></i></button>
+                            <button class="w-15 h-max"><i class="las la-video"></i></button>
+                        </div>
+                    </div>
+                    <div class="card bg-white mgT-40">
+                        <div class="pic w-100 p-relative">
+                            <div class="card-image" style="
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                  "></div>
+                            <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
+                                <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
+                                    view details <i class="las la-angle-right transition-5"></i>
+                                </button>
+                            </div>
+                            <div class="status p-absolute bg-red text-white">For Rent</div>
+                            <div class="info w-100 bg-red text-white display-flex space-evenly align-center">
+                                <div>
+                                    <i class="las la-vector-square"></i>
+                                    <small>530 sq ft</small>
+                                </div>
+
+                                <div>
+                                    <i class="las la-bed"></i>
+                                    <small>2</small>
+                                </div>
+                                <div>
+                                    <i class="las la-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic-info w-100 p-1">
+                            <h2 class="name">South Mervin Boulevard</h2>
+                            <small class="d-inline-block mgT-10">45 Regent Street, London, UK</small>
+                            <p class="desc mgT-20">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam power nonummy nibh tempor cum soluta nobis…
+                            </p>
+                        </div>
+                        <div class="w-100 mgT-10 review display-flex">
+                            <small class="w-70">$8,600 Per Month</small>
+                            <button class="w-15 h-max"><i class="las la-heart"></i></button>
+                            <button class="w-15 h-max"><i class="las la-video"></i></button>
+                        </div>
+                    </div>
+                    <div class="card bg-white mgT-40">
+                        <div class="pic w-100 p-relative">
+                            <div class="card-image" style="
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                  "></div>
+                            <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
+                                <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
+                                    view details <i class="las la-angle-right transition-5"></i>
+                                </button>
+                            </div>
+                            <div class="status p-absolute bg-red text-white">For Rent</div>
+                            <div class="info w-100 bg-red text-white display-flex space-evenly align-center">
+                                <div>
+                                    <i class="las la-vector-square"></i>
+                                    <small>530 sq ft</small>
+                                </div>
+
+                                <div>
+                                    <i class="las la-bed"></i>
+                                    <small>2</small>
+                                </div>
+                                <div>
+                                    <i class="las la-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic-info w-100 p-1">
+                            <h2 class="name">South Mervin Boulevard</h2>
+                            <small class="d-inline-block mgT-10">45 Regent Street, London, UK</small>
+                            <p class="desc mgT-20">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam power nonummy nibh tempor cum soluta nobis…
+                            </p>
+                        </div>
+                        <div class="w-100 mgT-10 review display-flex">
+                            <small class="w-70">$8,600 Per Month</small>
+                            <button class="w-15 h-max"><i class="las la-heart"></i></button>
+                            <button class="w-15 h-max"><i class="las la-video"></i></button>
+                        </div>
+                    </div>
+                    <div class="card bg-white mgT-40">
+                        <div class="pic w-100 p-relative">
+                            <div class="card-image" style="
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                  "></div>
+                            <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
+                                <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
+                                    view details <i class="las la-angle-right transition-5"></i>
+                                </button>
+                            </div>
+                            <div class="status p-absolute bg-red text-white">For Rent</div>
+                            <div class="info w-100 bg-red text-white display-flex space-evenly align-center">
+                                <div>
+                                    <i class="las la-vector-square"></i>
+                                    <small>530 sq ft</small>
+                                </div>
+
+                                <div>
+                                    <i class="las la-bed"></i>
+                                    <small>2</small>
+                                </div>
+                                <div>
+                                    <i class="las la-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic-info w-100 p-1">
+                            <h2 class="name">South Mervin Boulevard</h2>
+                            <small class="d-inline-block mgT-10">45 Regent Street, London, UK</small>
+                            <p class="desc mgT-20">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam power nonummy nibh tempor cum soluta nobis…
+                            </p>
+                        </div>
+                        <div class="w-100 mgT-10 review display-flex">
+                            <small class="w-70">$8,600 Per Month</small>
+                            <button class="w-15 h-max"><i class="las la-heart"></i></button>
+                            <button class="w-15 h-max"><i class="las la-video"></i></button>
+                        </div>
+                    </div>
+                    <div class="card bg-white mgT-40">
+                        <div class="pic w-100 p-relative">
+                            <div class="card-image" style="
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                  "></div>
+                            <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
+                                <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
+                                    view details <i class="las la-angle-right transition-5"></i>
+                                </button>
+                            </div>
+                            <div class="status p-absolute bg-red text-white">For Rent</div>
+                            <div class="info w-100 bg-red text-white display-flex space-evenly align-center">
+                                <div>
+                                    <i class="las la-vector-square"></i>
+                                    <small>530 sq ft</small>
+                                </div>
+
+                                <div>
+                                    <i class="las la-bed"></i>
+                                    <small>2</small>
+                                </div>
+                                <div>
+                                    <i class="las la-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic-info w-100 p-1">
+                            <h2 class="name">South Mervin Boulevard</h2>
+                            <small class="d-inline-block mgT-10">45 Regent Street, London, UK</small>
+                            <p class="desc mgT-20">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam power nonummy nibh tempor cum soluta nobis…
+                            </p>
+                        </div>
+                        <div class="w-100 mgT-10 review display-flex">
+                            <small class="w-70">$8,600 Per Month</small>
+                            <button class="w-15 h-max"><i class="las la-heart"></i></button>
+                            <button class="w-15 h-max"><i class="las la-video"></i></button>
+                        </div>
+                    </div>
+                    <div class="card bg-white mgT-40">
+                        <div class="pic w-100 p-relative">
+                            <div class="card-image" style="
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                  "></div>
+                            <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
+                                <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
+                                    view details <i class="las la-angle-right transition-5"></i>
+                                </button>
+                            </div>
+                            <div class="status p-absolute bg-red text-white">For Rent</div>
+                            <div class="info w-100 bg-red text-white display-flex space-evenly align-center">
+                                <div>
+                                    <i class="las la-vector-square"></i>
+                                    <small>530 sq ft</small>
+                                </div>
+
+                                <div>
+                                    <i class="las la-bed"></i>
+                                    <small>2</small>
+                                </div>
+                                <div>
+                                    <i class="las la-bath"></i>
+                                    <small>1 Bathroom</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic-info w-100 p-1">
+                            <h2 class="name">South Mervin Boulevard</h2>
+                            <small class="d-inline-block mgT-10">45 Regent Street, London, UK</small>
+                            <p class="desc mgT-20">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam power nonummy nibh tempor cum soluta nobis…
+                            </p>
+                        </div>
+                        <div class="w-100 mgT-10 review display-flex">
+                            <small class="w-70">$8,600 Per Month</small>
+                            <button class="w-15 h-max"><i class="las la-heart"></i></button>
+                            <button class="w-15 h-max"><i class="las la-video"></i></button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="pic-info w-100 p-1">
-                <h2 class="name">South Mervin Boulevard</h2>
-                <small class="d-inline-block mgT-10"
-                  >45 Regent Street, London, UK</small
-                >
-                <p class="desc mgT-20">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam power nonummy nibh tempor cum soluta nobis…
+
+                <div class="display-flex mgT-50">
+                    <a href="#" class="page-no bg-white text-bold text-center">
+                        <p>1</p>
+                    </a>
+                    <a href="#" class="page-no bg-red text-white text-bold text-center">
+                        <p>2</p>
+                    </a>
+
+                    <a href="#" class="page-no bg-white text-bold text-center">
+                        <p>3</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services-section" class="w-100 h-80 display-flex justify-end">
+            <div class="services w-50 h-max text-white p-3">
+                <div class="service">
+                    <div class="icon">
+                        <i class="las la-university"></i>
+                    </div>
+                    <h2 class="name mgT-20">Residential</h2>
+                    <p class="desc mgT-10">
+                        Duis autem vel eum iriure dolor in hend rerit in vulputate velit
+                        esse molestie vel illum dolore nulla facilisis.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="las la-university"></i>
+                    </div>
+                    <h2 class="name mgT-20">Residential</h2>
+                    <p class="desc mgT-10">
+                        Duis autem vel eum iriure dolor in hend rerit in vulputate velit
+                        esse molestie vel illum dolore nulla facilisis.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="las la-university"></i>
+                    </div>
+                    <h2 class="name mgT-20">Residential</h2>
+                    <p class="desc mgT-10">
+                        Duis autem vel eum iriure dolor in hend rerit in vulputate velit
+                        esse molestie vel illum dolore nulla facilisis.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="las la-university"></i>
+                    </div>
+                    <h2 class="name mgT-20">Residential</h2>
+                    <p class="desc mgT-10">
+                        Duis autem vel eum iriure dolor in hend rerit in vulputate velit
+                        esse molestie vel illum dolore nulla facilisis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="best-deal" class="w-100 h-110 bg-white">
+            <div class="w-80 h-max mg-auto">
+                <h1 class="title text-upper">
+                    Best Deal <span class="text-red">Properties</span>
+                </h1>
+                <small>We have Properties in these Areas View a list of Featured
+                    Properties.</small>
+                <div class="w-100 display-flex space-between mgT-40">
+                    <div class="w-50 p-relative">
+                        <img width="100%"
+                            src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property.jpg"
+                            alt="" />
+                        <div class="img-info p-absolute z-2 p-3">
+                            <h3 class="project-name text-thin">Residential Project-d05</h3>
+
+                            <p class="desc mgT-50">
+                                <strong>Client: </strong>Bryan Doe Joe <br />
+                                <strong>Client: </strong>Mountain Line CA 351545 <br />
+                                <strong>Value: </strong>$15,000 <br />
+                            </p>
+
+                            <button class="move text-bold mgT-30 d-inline-block">
+                                Read More <i class="las la-angle-right transition-5"></i>
+                            </button>
+                        </div>
+                        <div class="img-info-before p-absolute z-1 bg-green"></div>
+                    </div>
+                    <div class="w-50 mgL-30 p-relative">
+                        <img width="100%"
+                            src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property-2.jpg"
+                            alt="" />
+                        <div class="img-info p-absolute z-2 p-3">
+                            <h3 class="project-name text-thin">Residential Project-d05</h3>
+
+                            <p class="desc mgT-50">
+                                <strong>Client: </strong>Bryan Doe Joe <br />
+                                <strong>Client: </strong>Mountain Line CA 351545 <br />
+                                <strong>Value: </strong>$15,000 <br />
+                            </p>
+
+                            <button class="move text-bold mgT-30 d-inline-block">
+                                Read More <i class="las la-angle-right transition-5"></i>
+                            </button>
+                        </div>
+                        <div class="img-info-before p-absolute z-1 bg-green"></div>
+                    </div>
+                </div>
+
+                <div class="display-flex mgT-50">
+                    <a href="#" class="page-no bg-dark-white text-bold text-center">
+                        <i class="las la-angle-left"></i>
+                    </a>
+                 
+
+                    <a href="#" class="page-no bg-dark-white text-bold text-center">
+                        <i class="las la-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="writing-sec" class="w-100 h-60 p-relative">
+            <div class="w-65 p-absolute text-center p-center">
+                <p id="writing" class="text-white">
+                    WE DON'T JUST FIND <br />
+                    <span class="text-red"> GREAT DEALS</span> WE CREATE THEM
                 </p>
-              </div>
-              <div class="w-100 mgT-10 review display-flex">
-                <small class="w-70">$8,600 Per Month</small>
-                <button class="w-15 h-max"><i class="las la-heart"></i></button>
-                <button class="w-15 h-max"><i class="las la-video"></i></button>
-              </div>
+
+                <button id="writing-btn" class="p-1 move text-upper w-25 transition-5 text-bold mgT-50 text-white">
+                    view all listing <i class="las la-angle-right transition-5"></i>
+                </button>
             </div>
-            <div class="card bg-white mgT-40">
-                <div class="pic w-100 p-relative">
-                  <div
-                    class="card-image"
-                    style="
-                      background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
-                    "
-                  ></div>
-                  <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
-                    <button
-                      class="p-1 move  text-upper w-55 text-bold p-absolute p-center text-white"
-                    >
-                      view details <i class="las la-angle-right transition-5"></i>
-                    </button>
-                  </div>
-                  <div class="status p-absolute bg-red text-white">For Rent</div>
-                  <div
-                    class="info w-100 bg-red text-white display-flex space-evenly align-center"
-                  >
-                    <div>
-                      <i class="las la-vector-square"></i>
-                      <small>530 sq ft</small>
-                    </div>
-  
-                    <div>
-                      <i class="las la-bed"></i>
-                      <small>2</small>
-                    </div>
-                    <div>
-                      <i class="las la-bath"></i>
-                      <small>1 Bathroom</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="pic-info w-100 p-1">
-                  <h2 class="name">South Mervin Boulevard</h2>
-                  <small class="d-inline-block mgT-10"
-                    >45 Regent Street, London, UK</small
-                  >
-                  <p class="desc mgT-20">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam power nonummy nibh tempor cum soluta nobis…
-                  </p>
-                </div>
-                <div class="w-100 mgT-10 review display-flex">
-                  <small class="w-70">$8,600 Per Month</small>
-                  <button class="w-15 h-max"><i class="las la-heart"></i></button>
-                  <button class="w-15 h-max"><i class="las la-video"></i></button>
-                </div>
-              </div>
-              <div class="card bg-white mgT-40">
-                <div class="pic w-100 p-relative">
-                  <div
-                    class="card-image"
-                    style="
-                      background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
-                    "
-                  ></div>
-                  <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
-                    <button
-                      class="p-1 move  text-upper w-55 text-bold p-absolute p-center text-white"
-                    >
-                      view details <i class="las la-angle-right transition-5"></i>
-                    </button>
-                  </div>
-                  <div class="status p-absolute bg-red text-white">For Rent</div>
-                  <div
-                    class="info w-100 bg-red text-white display-flex space-evenly align-center"
-                  >
-                    <div>
-                      <i class="las la-vector-square"></i>
-                      <small>530 sq ft</small>
-                    </div>
-  
-                    <div>
-                      <i class="las la-bed"></i>
-                      <small>2</small>
-                    </div>
-                    <div>
-                      <i class="las la-bath"></i>
-                      <small>1 Bathroom</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="pic-info w-100 p-1">
-                  <h2 class="name">South Mervin Boulevard</h2>
-                  <small class="d-inline-block mgT-10"
-                    >45 Regent Street, London, UK</small
-                  >
-                  <p class="desc mgT-20">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam power nonummy nibh tempor cum soluta nobis…
-                  </p>
-                </div>
-                <div class="w-100 mgT-10 review display-flex">
-                  <small class="w-70">$8,600 Per Month</small>
-                  <button class="w-15 h-max"><i class="las la-heart"></i></button>
-                  <button class="w-15 h-max"><i class="las la-video"></i></button>
-                </div>
-              </div>
-              <div class="card bg-white mgT-40">
-                <div class="pic w-100 p-relative">
-                  <div
-                    class="card-image"
-                    style="
-                      background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
-                    "
-                  ></div>
-                  <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
-                    <button
-                      class="p-1 move  text-upper w-55 text-bold p-absolute p-center text-white"
-                    >
-                      view details <i class="las la-angle-right transition-5"></i>
-                    </button>
-                  </div>
-                  <div class="status p-absolute bg-red text-white">For Rent</div>
-                  <div
-                    class="info w-100 bg-red text-white display-flex space-evenly align-center"
-                  >
-                    <div>
-                      <i class="las la-vector-square"></i>
-                      <small>530 sq ft</small>
-                    </div>
-  
-                    <div>
-                      <i class="las la-bed"></i>
-                      <small>2</small>
-                    </div>
-                    <div>
-                      <i class="las la-bath"></i>
-                      <small>1 Bathroom</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="pic-info w-100 p-1">
-                  <h2 class="name">South Mervin Boulevard</h2>
-                  <small class="d-inline-block mgT-10"
-                    >45 Regent Street, London, UK</small
-                  >
-                  <p class="desc mgT-20">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam power nonummy nibh tempor cum soluta nobis…
-                  </p>
-                </div>
-                <div class="w-100 mgT-10 review display-flex">
-                  <small class="w-70">$8,600 Per Month</small>
-                  <button class="w-15 h-max"><i class="las la-heart"></i></button>
-                  <button class="w-15 h-max"><i class="las la-video"></i></button>
-                </div>
-              </div>
-              <div class="card bg-white mgT-40">
-                <div class="pic w-100 p-relative">
-                  <div
-                    class="card-image"
-                    style="
-                      background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
-                    "
-                  ></div>
-                  <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
-                    <button
-                      class="p-1 move  text-upper w-55 text-bold p-absolute p-center text-white"
-                    >
-                      view details <i class="las la-angle-right transition-5"></i>
-                    </button>
-                  </div>
-                  <div class="status p-absolute bg-red text-white">For Rent</div>
-                  <div
-                    class="info w-100 bg-red text-white display-flex space-evenly align-center"
-                  >
-                    <div>
-                      <i class="las la-vector-square"></i>
-                      <small>530 sq ft</small>
-                    </div>
-  
-                    <div>
-                      <i class="las la-bed"></i>
-                      <small>2</small>
-                    </div>
-                    <div>
-                      <i class="las la-bath"></i>
-                      <small>1 Bathroom</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="pic-info w-100 p-1">
-                  <h2 class="name">South Mervin Boulevard</h2>
-                  <small class="d-inline-block mgT-10"
-                    >45 Regent Street, London, UK</small
-                  >
-                  <p class="desc mgT-20">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam power nonummy nibh tempor cum soluta nobis…
-                  </p>
-                </div>
-                <div class="w-100 mgT-10 review display-flex">
-                  <small class="w-70">$8,600 Per Month</small>
-                  <button class="w-15 h-max"><i class="las la-heart"></i></button>
-                  <button class="w-15 h-max"><i class="las la-video"></i></button>
-                </div>
-              </div>
-              <div class="card bg-white mgT-40">
-                <div class="pic w-100 p-relative">
-                  <div
-                    class="card-image"
-                    style="
-                      background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
-                    "
-                  ></div>
-                  <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
-                    <button
-                      class="p-1 move  text-upper w-55 text-bold p-absolute p-center text-white"
-                    >
-                      view details <i class="las la-angle-right transition-5"></i>
-                    </button>
-                  </div>
-                  <div class="status p-absolute bg-red text-white">For Rent</div>
-                  <div
-                    class="info w-100 bg-red text-white display-flex space-evenly align-center"
-                  >
-                    <div>
-                      <i class="las la-vector-square"></i>
-                      <small>530 sq ft</small>
-                    </div>
-  
-                    <div>
-                      <i class="las la-bed"></i>
-                      <small>2</small>
-                    </div>
-                    <div>
-                      <i class="las la-bath"></i>
-                      <small>1 Bathroom</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="pic-info w-100 p-1">
-                  <h2 class="name">South Mervin Boulevard</h2>
-                  <small class="d-inline-block mgT-10"
-                    >45 Regent Street, London, UK</small
-                  >
-                  <p class="desc mgT-20">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam power nonummy nibh tempor cum soluta nobis…
-                  </p>
-                </div>
-                <div class="w-100 mgT-10 review display-flex">
-                  <small class="w-70">$8,600 Per Month</small>
-                  <button class="w-15 h-max"><i class="las la-heart"></i></button>
-                  <button class="w-15 h-max"><i class="las la-video"></i></button>
-                </div>
-              </div>
-      
-          </div>
+        </section>
 
-          <div class="display-flex mgT-50">
-            <a href="#" class="page-no bg-white text-bold text-center">
-              <p>1</p>
-            </a>
-            <a href="#" class="page-no bg-red text-white text-bold text-center">
-              <p>2</p>
-            </a>
+        <section id="team-sec" class="w-100 bg-dark-white  p-sec">
+            <div class="w-70 mg-auto h-max ">
+                <div class="w-70 mg-auto text-center">
+                    <h1 class="title text-upper">
+                        meet our team <span class="text-red">of professionals</span>
+                    </h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
 
-            <a href="#" class="page-no bg-white text-bold text-center">
-              <p>3</p>
-            </a>
-          </div>
-        </div>
-      </section>
 
-      <section id="services-section" class="w-100 h-80  display-flex justify-end" >
-        <div class="services w-50 h-max  text-white p-3">
+                <div class="display-flex space-between wrap w-100 ">
 
-          <div class="service">
-            <div class="icon">
-              <i class="las la-university"></i>
+
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                            <p class="desc">VP Product</p>
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                </div>
             </div>
-            <h2 class="name mgT-20">Residential</h2>
-            <p class="desc mgT-10">
-             
-                Duis autem vel eum iriure dolor in hend rerit in vulputate
-                velit esse molestie vel illum dolore nulla facilisis.
-              
-            </p>
-          </div>
-          <div class="service">
-            <div class="icon">
-              <i class="las la-university"></i>
-            </div>
-            <h2 class="name mgT-20">Residential</h2>
-            <p class="desc mgT-10">
-             
-                Duis autem vel eum iriure dolor in hend rerit in vulputate
-                velit esse molestie vel illum dolore nulla facilisis.
-              
-            </p>
-          </div>
-          <div class="service">
-            <div class="icon">
-              <i class="las la-university"></i>
-            </div>
-            <h2 class="name mgT-20">Residential</h2>
-            <p class="desc mgT-10">
-             
-                Duis autem vel eum iriure dolor in hend rerit in vulputate
-                velit esse molestie vel illum dolore nulla facilisis.
-              
-            </p>
-          </div>
-          <div class="service">
-            <div class="icon">
-              <i class="las la-university"></i>
-            </div>
-            <h2 class="name mgT-20">Residential</h2>
-            <p class="desc mgT-10">
-             
-                Duis autem vel eum iriure dolor in hend rerit in vulputate
-                velit esse molestie vel illum dolore nulla facilisis.
-              
-            </p>
-          </div>
+        </section>
 
-      
-
-
-        </div>
-      </section>
+        <section id="partners" class="w-100 bg-white  h-60 p-sec">
+            <div class="w-70 mg-auto h-max ">
+                <div class="w-70 mg-auto text-center">
+                    <h1 class="title text-upper">
+                        our trusted <span class="text-red">partners</span>
+                    </h1>
+                    <p class="desc ">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
 
 
 
-      <section id="best-deal" class="w-100 h-110 bg-white ">
-        <div class="w-80 h-max mg-auto">
-            <h1 class="title text-upper">Best Deal <span class=text-red>Properties</span></h1>
-            <small>We have Properties in these Areas View a list of Featured Properties.</small>
-            <div class="w-100 display-flex space-between  mgT-40">
-                <div class="w-50  p-relative">
-                    <img width="100%" src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property.jpg" alt="">
-                    <div class="img-info p-absolute  z-2 p-3">
-                        <h3 class="project-name text-thin">Residential Project-d05</h3>
-
-                        <p class="desc mgT-50">
-                            <strong>Client: </strong>Bryan Doe Joe <br>
-                            <strong>Client: </strong>Mountain Line CA 351545 <br>
-                            <strong>Value: </strong>$15,000 <br>
-
-                        </p>
-
-                        <button class="move text-bold mgT-30 d-inline-block">Read More <i class="las la-angle-right transition-5"></i></button>
-
-
-                    </div>
-                    <div class="img-info-before p-absolute z-1 bg-green"></div>
-                </div>
-                <div class="w-50 mgL-30 p-relative">
-                    <img width="100%" src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property.jpg" alt="">
-                    <div class="img-info p-absolute  z-2 p-3">
-                        <h3 class="project-name text-thin">Residential Project-d05</h3>
-
-                        <p class="desc mgT-50">
-                            <strong>Client: </strong>Bryan Doe Joe <br>
-                            <strong>Client: </strong>Mountain Line CA 351545 <br>
-                            <strong>Value: </strong>$15,000 <br>
-
-                        </p>
-
-                        <button class=" move text-bold mgT-30 d-inline-block">Read More <i class="las la-angle-right transition-5"></i></button>
-
-
-                    </div>
-                    <div class="img-info-before p-absolute z-1 bg-green"></div>
                 </div>
 
+                
+                <div class="display-flex space-between mgT-60 w-100">
+                    <div class="img-partner display-flex align-center justify-center ">
+                        <img width="100%"
+                            src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/partner-5.png"
+                            alt="">
+                    </div>
+                    <div class="img-partner display-flex align-center justify-center ">
+                        <img src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/partner-3.png"
+                            alt="">
+                    </div>
 
-            
-            </div>
+                    <div class="img-partner display-flex align-center justify-center ">
+                        <img width="100%"
+                            src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/partner-5.png"
+                            alt="">
+                    </div>
+                    <div class="img-partner  display-flex align-center justify-center">
+                        <img src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/partner-3.png"
+                            alt="">
+                    </div>
+                    <div class="img-partner display-flex align-center justify-center ">
+                        <img width="100%"
+                            src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/partner-5.png"
+                            alt="">
+                    </div>
 
-        </div>
-        
-      </section>
-
-      <section id="writing-sec" class="w-100 h-60  p-relative" >
-        <div class="w-65  p-absolute text-center p-center ">
-            <p id="writing" class="text-white">WE DON'T JUST FIND <br>
-               <span class="text-red"> GREAT DEALS</span> WE CREATE THEM</p>
-
-               <button
-               id="writing-btn"
-               class="p-1  move text-upper w-25 transition-5 text-bold mgT-50 text-white"
-             >
-               view all listing <i class="las la-angle-right transition-5"></i>
-             </button>
-        </div>
-        
-      </section>
+                </div>
+        </section>
     </main>
-  </body>
+    <footer>
+        <section class="contact-sec w-100 h-30 text-white display-flex space-evenly align-center " >
+            <div class="text-center">
+                <i class="las la-phone-volume"></i>
+                <h4 class="mgT-20 ">Phone Number</h4>
+                <small class="mgT-10 text-bolder d-inline-block">+994 77 547 49 48</small>
+            </div>
+            <div class="text-center">
+                <i class="las la-map-marker-alt"></i>
+                <h4 class="mgT-20">Victoria Hall</h4>
+                <small class="mgT-10 text-bolder d-inline-block">Idea Homes, australia</small>
+            </div>
+            <div class="text-center">
+                <i class="las la-envelope-open-text"></i>
+                <h4 class="mgT-20">Email Address</h4>
+                <a href="#" class="mgT-10 d-inline-block text-bolder text-white">info@ideahomes.com</a>
+            </div>
+
+        </section>
+        se
+
+
+    </footer>
+</body>
+
 </html>

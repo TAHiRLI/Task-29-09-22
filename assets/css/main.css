@@ -40,8 +40,18 @@ body{
     background-repeat: no-repeat    ;
 }
 .header-text{
+    padding-left: 100px;
+    border-left: 5px solid #ed2a28;
     left: 15%;
     top: 45vh;
+}
+.header-text h1{
+    font-size: 55px;
+}
+.header-text .text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
 }
 .gear{
 
@@ -102,7 +112,7 @@ body{
 /* Nav */
 nav{
     height: 12vh;
-    background-color: gray;
+    background-color: black   ;
     position: sticky;
     top: 0;
 
@@ -125,14 +135,14 @@ nav{
     padding-bottom: 4vh;
 }
 .social-media i{
-    font-size: 30px;
+    font-size: 28px;
 
 }
-.menu:hover .submenu{
-opacity: 1;
-visibility: visible;
-transform: translateY(2vh);
+.social-media i:hover {
+color: #ed2a28;
+
 }
+
 #home-submenu{
     left: 0;
 }
@@ -141,22 +151,37 @@ transform: translateY(2vh);
 }
 
 .submenu{
-    transition: 0.3s;
+    transition: 0.4s;
     position: absolute;
     opacity: 0;
     visibility: hidden;
     bottom: -46vh;
     height: 48vh;
-  
-    width: 15%;
+    border-bottom-right-radius:100%;
+    box-shadow: 0px 1px 10px black;
+    width: 18%;
+    background-color: white;
 
-    background-color: aqua;
+
+}
+
+.menu:hover .submenu{
+opacity: 1;
+visibility: visible;
+transform: translateY(2vh);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
 .submenu li{
     cursor: pointer;
     transition: .3s;
     margin-bottom: 2px;
     padding: .5rem 1rem;
+}
+.submenu li:first-child{
+    background-color: #ed2a28;
+    color: white;
+
 }
 .submenu li:hover{
     background-color: #ed2a28;
@@ -179,12 +204,17 @@ transform: translateY(2vh);
 
 }
 .title{
+    font-family: 'roboto', sans-serif;
     font-size: 32px;
     margin-bottom: 30px;
 }
 .desc{
-    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
     line-height: 20px;
+}
+.card .desc{
+    font-size: 14px;
 }
 .quote{
     border-left: 1px solid gray;
@@ -309,11 +339,11 @@ column-gap: 10px;
 .review{
     padding-left: 20px;
     height: 40px;
-    border-top: 1px solid gray;
+    border-top: 1px solid gainsboro;
     line-height: 40px;
 }
 .review button{
-    border-left:1px solid gray ;
+    border-left:1px solid gainsboro ;
     border-radius: 0;
 }
 .review button:hover{
@@ -330,6 +360,7 @@ column-gap: 10px;
     width: 45px;
     height: 45px;
     margin-right: 10px;
+    border-radius: 5px;
 }
 .page-no:hover{
     color: white;
@@ -431,12 +462,15 @@ transform: translateY(-2vh);
 
 /* section big titile */
 #writing-sec{
+
     background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/bg-text.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 #writing{
+    font-family: none;
+
     font-size: 50px;
 }
 #writing-btn{
@@ -447,3 +481,79 @@ background-color: white;
 color: #ed2a28;
 }
 /* ============== */
+
+/* employees */
+.emp{
+    cursor: pointer;
+    width: 23%;
+    box-shadow: 0 2px 5px silver ;
+    padding-bottom: 8vh;
+
+}
+
+.emp-links a i{
+    transition: 0.5s;
+    padding-right: 10px;
+    font-size: 20px;
+    border-right: 2px solid gray;
+    z-index: 8;
+
+}
+.emp-links {
+    height: 6vh;
+}
+
+a:last-child i{
+    border: none;
+}
+.emp-hover{
+    background-color: #ed2a28;
+    transition: 0.5s;
+    height: 0%;
+    /* opacity: 0; */
+}
+.emp:hover .emp-hover{
+    opacity: 1;
+    height: 100%;
+}
+.emp:hover .emp-links i{
+    opacity: 1;
+   color: white;
+   border-color: white;
+}
+
+.emp-info{
+    opacity: 0;
+}
+.emp:hover .emp-info{
+   opacity: 1;
+}
+
+
+
+
+
+
+/* ============== */
+
+
+
+/* partners section  */
+
+
+.img-partner{
+    
+     width: 15%;
+    border: 1px solid gainsboro;
+}
+/* ============== */
+
+
+.contact-sec{
+    background-color: #ED2A28;
+    font-weight: 100;
+}
+.contact-sec i{
+    font-size: 50px;
+}
+
