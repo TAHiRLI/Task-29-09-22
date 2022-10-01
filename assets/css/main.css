@@ -5,11 +5,11 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 button{
     cursor: pointer;
-    padding: .8rem 2.5rem;
+    padding: 13px 30px;
     border-radius: 5px;
     font-size: 18px;
 }
@@ -24,10 +24,15 @@ button:hover{
 
 /* Header */
 header{
-    top: -10vh;
-   background-size: 100%;
+   
    background-position: center center;
+}
+body{
+    top: 0;
+    left: 0;
     background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-4.jpg) ;
+    background-position: center  top;
+    background-repeat: no-repeat    ;
 }
 .header-text{
     left: 15%;
@@ -75,9 +80,7 @@ header{
 
 /* Top nav */
 
-.top-nav{
- background-color: red;
-}
+
 .top-nav a:hover{
     color: #ed2a28;
 }
@@ -97,7 +100,6 @@ nav{
     top: 0;
 
     z-index: 9  ;
-    margin-top: 10vh;
 
 
 }
@@ -159,19 +161,15 @@ transform: translateY(2vh);
 
 
 /* Section about */
-main{
-    top: 90vh;
-    
-} 
 
 .about{
-    height: 300vh;
-    padding-top: 12vh;
+    height: 90vh;
+    padding-top: 20vh;
     
 
 }
 .title{
-    font-size: 30px;
+    font-size: 32px;
 }
 .desc{
     font-size: 14px;
@@ -192,3 +190,48 @@ main{
 
 
 /* ================= */
+
+/* search section */
+.search{
+    padding-top: 10vh;
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-search.jpg);
+}
+.search input, select{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px ;
+    margin-top: 10px;
+    background-color: rgba(240, 240, 240,0.2);
+}
+.search label {
+    color: white;
+    
+}
+.search-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+row-gap: 20px;
+
+column-gap: 10px;
+
+}
+.fc{
+    grid-column: 1 / span 2;
+
+}
+.sc{
+    grid-column: 3/ span 2;
+}
+.tr{
+    grid-column: 5/ span 2;
+}
+.fr{
+    grid-column: 7 / span 2;
+}
+.range{
+    grid-column: 5/span 3;
+
+}
+
+/* ============== */

@@ -17,6 +17,19 @@
     <title>Task 29-09-22</title>
   </head>
   <body class="p-relative">
+
+      <div class="top-nav w-100 h-10 display-flex justify-end align-center">
+        <ul>
+          <li class="d-inline-block mgL-30"><a href="#"> Favourites</a></li>
+          <li class="d-inline-block mgL-30">
+            <a href="#"> Submit Property</a>
+          </li>
+          <li class="d-inline-block mgL-30"><a href="#"> My Property</a></li>
+          <li class="d-inline-block mgL-30">
+            <a href="#"> Login / Register</a>
+          </li>
+        </ul>
+      </div>
     <nav class="w-100 z-9">
       <div class="display-flex w-85 h-max mg-auto">
         <img
@@ -95,19 +108,8 @@
       </div>
     </nav>
 
-    <header class="h-100 w-100">
-      <div class="top-nav w-100 h-10 display-flex justify-end align-center">
-        <ul>
-          <li class="d-inline-block mgL-30"><a href="#"> Favourites</a></li>
-          <li class="d-inline-block mgL-30">
-            <a href="#"> Submit Property</a>
-          </li>
-          <li class="d-inline-block mgL-30"><a href="#"> My Property</a></li>
-          <li class="d-inline-block mgL-30">
-            <a href="#"> Login / Register</a>
-          </li>
-        </ul>
-      </div>
+    <header class="h-80 w-100">
+    
 
       <div class="header-text p-absolute text-red">
         <p class="mgT-20">Get firs class</p>
@@ -159,10 +161,12 @@
       </div>
     </header>
 
-    <main class=" w-100 r-0">
-      <section class="about display-flex w-100">
-        <div class="w-60 h-max bg-green display-flex justify-end">
-          <div class="w-80">
+    <main class=" w-100 ">
+
+      <section class="about  w-100">
+        <div class="w-70 display-flex mg-auto">
+         <div class="w-60 h-max bg-green ">
+          <div class="">
             <div class="bg-orange">
               <h1 class="text-upper title">
                 ABOUT IDEA HOMES <span class="text-red">REAL ESTATE</span>
@@ -194,7 +198,7 @@
             </div>
             <div class="quote w-100 p-4 h-20 mgT-30 p-relative ">
                <p class="desc text-italic "> Who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur.</p>
-                <h2 class="text-red text-bold">- Ali Farhan, Founder.</h2>
+                <h2 class="text-red text-bold mgT-20">- Ali Farhan, Founder.</h2>
 
             </div>
           </div>
@@ -206,7 +210,100 @@
             alt=""
           />
         </div>
+        </div>
+       
       </section>
+
+      <section class="search w-100 h-70 ">
+        <div class="w-70 mg-auto">
+            <h1 class="title text-white">Advanced Search</h1>
+            
+            <div class="w-100 search-grid mgT-100 ">
+               
+         
+                <div class="  fc">
+                    <label for="keyword">Keyword</label><br>
+
+                <input type="text"  id="keyword" placeholder="Any">
+                </div>
+
+
+
+                <div class="    sc">
+                     <label for="Location">Location</label><br>
+                <select name="" id="Location" >
+                    <option value="">Any</option>
+                </select>
+                </div>
+
+
+                <div class=" tr">
+                    <label for="Type">Type</label><br>
+                    <select name="" id="Type" >
+                        <option value="">Any</option>
+                    </select>
+    
+                </div>
+
+                
+
+
+                <div class="fr">
+                     <label for="Status">Status</label><br>
+                <select name="" id="Status" >
+                    <option value="">Any</option>
+                </select>
+
+                </div>
+
+
+
+                <div class="  ">
+                    <label for="">Bath Room</label><br>
+                    <select name="" id="" >
+                        <option value="">Any</option>
+                    </select>
+                </div>
+
+
+                <div class="  ">
+                    
+                    <label for="">Bed Room</label>
+                    <select name="" id="" >
+                        <option value="">Any</option>
+                    </select>
+
+                </div>
+             <div class="  ">
+                <label for="min">Squre flt Min</label>
+                <input type="numer" name="" id="min" min="0" placeholder="Any">
+
+                </div>
+                <div class=" ">
+                    <label for="max">Max</label>
+                    <input type="numer" id="max"  placeholder="Any"> 
+                </div>
+
+
+                <div class="range ">
+                    <label for="">Price range</label>
+                    <input class="" type="range" name="" id="">
+                </div>
+                <div>
+
+                    <button class="bg-red text-bold text-white mgT-20 text-upper">Search</button>
+                </div>
+                
+            </div>
+        <button class="bg-red text-white text-bold mgT-30"><i class="las la-plus-circle "></i> Show More Options</button>
+
+
+        </div>
+
+
+
+      </section>
+      
     </main>
   </body>
 </html>
