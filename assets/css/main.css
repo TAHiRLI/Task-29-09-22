@@ -8,10 +8,11 @@ a{
     color: black;
 }
 button{
+    transition: 0.5s;
     cursor: pointer;
     /* padding: 13px 30px; */
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 button:hover{
     color: black;
@@ -179,6 +180,7 @@ transform: translateY(2vh);
 }
 .title{
     font-size: 32px;
+    margin-bottom: 30px;
 }
 .desc{
     font-size: 14px;
@@ -319,5 +321,129 @@ column-gap: 10px;
     background-color: #ed2a28;
 }
 
+
+
+
+.page-no{
+    cursor: pointer;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.page-no:hover{
+    color: white;
+    background-color: #dd003f;
+}
 /* ============== */
 
+/* servies section */
+#services-section{
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/paralax-half.jpg);
+    background-size: 100%;
+    background-position: center center;
+
+}
+.services{
+    background-color: rgba(237, 42, 40, .9);
+    padding-top: 10vh;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1   fr;
+
+}
+.services .icon{
+    font-size: 70px;
+    transition: 0.5s;
+}
+.service {
+    cursor: pointer;
+}
+.icon:hover{
+transform: translateY(-2vh);
+}
+
+/* ============== */
+
+
+
+
+
+
+
+
+/* Best deals section */
+#best-deal{
+    padding: 15vh 0 ;
+}
+
+.img-info-before{
+    height: 64%;
+    width: 50%;
+    top: 11.3%;
+    right: 2.7%;
+   
+}
+.img-info{
+    top: 10%;
+    right: 2%;
+    height: 64%;
+    width: 50%;
+    background-color: white;
+
+}
+.project-name::before{
+    content: '';
+    width: 45px;
+    height: 5px;
+    background-color:#ed2a28  ; 
+    position: absolute;
+    top: 28%;
+
+    
+}
+.project-name::after{
+    content: '';
+    width: 100px;
+    height: 1.8px;
+    background-color:#ed2a28  ; 
+    position: absolute;
+    top: calc(28% + 1.5px) ;
+    left: 20%;
+
+    
+}
+.img-info button:hover{
+    color: #ed2a28;
+    background-color: white;
+}
+ button.move:hover i{
+   display: inline-block;
+   margin-left: 10px;
+}
+
+
+
+
+/* ============== */
+
+
+/* section big titile */
+#writing-sec{
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/bg-text.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#writing{
+    font-size: 50px;
+}
+#writing-btn{
+    border: 1px solid white;
+}
+#writing-btn:hover{
+background-color: white;
+color: #ed2a28;
+}
+/* ============== */
