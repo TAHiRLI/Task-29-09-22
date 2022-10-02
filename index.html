@@ -16,11 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/main.css" />
     <title>Task 29-09-22</title>
 </head>
 
 <body class="p-relative">
+    <button id="fix-btn1" class="fixed-btn z-8  p-fixed bg-red"><a href="#" class=" text-white "><i class="las la-arrow-up"></i></a></button>
+    <button id="fix-btn2" class="fixed-btn z-8  p-fixed bg-red"><a href="#" class=" text-white "><i class="las la-mail-bulk"></i></a></button>
+
     <div class="top-nav w-100 h-10 display-flex justify-end align-center">
         <ul>
             <li class="d-inline-block mgL-30">
@@ -120,6 +125,7 @@
         </div>
     </nav>
 
+
     <header class="h-80 w-100">
         <div class="header-text p-absolute ">
             <p class="mgT-20  text-red text-italic first-class">Get first class</p>
@@ -128,40 +134,41 @@
                 With over 10 years of experience helping businesses <br />
                 to find comprehensive solutions
             </p>
-            <button class="bg-white mgT-20 text-bold">Read More</button>
+            <button id="readmore" class="bg-white mgT-20 text-bold">Read More</button>
             <button class="bg-red mgT-20 mgL-20 text-bold text-white">
                 Contact us
             </button>
         </div>
 
-        <div class="gear p-absolute">
+        <div class="gear p-fixed z-8">
             <div class="setting-panel text-white">Setting panel</div>
 
             <div class="gif-container p-absolute t-0 r-0 w-20">
-                <img height="100%"
-                    src="https://bestanimations.com/media/gears/513504963black-moving-gears-animation.gif" alt="gear"
-                    class="p-absolute t-0 r-0" />
+                <img height="60%"
+                    
+                    src="https://bestanimations.com/media/loading-gears/1918692048single-gear-cog-animation-1-4.gif" alt="gear"
+                    class="p-absolute p-center" />
             </div>
             <div class="color-config w-80 h-20 bg-dark-white display-flex wrap space-evenly">
                 <div class="w-100 text-center mgT-10 text-black text-bold">
                     Normal color schemes
                 </div>
 
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
+                <div class="color bg-red"></div>
+                <div class="color bg-blue"></div>
+                <div class="color bg-red"></div>
+                <div class="color bg-yellow"></div>
+                <div class="color bg-green"></div>
+                <div class="color bg-red"></div>
+                <div class="color bg-blue"></div>
+                <div class="color bg-dark"></div>
+                <div class="color bg-yellow"></div>
+                <div class="color  bg-red"></div>
+                <div class="color bg-dark-white"></div>
+                <div class="color bg-yellow"></div>
+                <div class="color bg-red"></div>
+                <div class="color bg-gray"></div>
+                <div class="color bg-red"></div>
             </div>
         </div>
     </header>
@@ -169,16 +176,16 @@
     <main class="w-100">
         <section class="about w-100">
             <div class="w-75 display-flex mg-auto">
-                <div class="w-60 h-max ">
-                    <div class="">
-                        <div class="">
+                <div class="w-60  ">
+                    <div >
+                        <div >
                             <h1 class="text-upper title">
-                                ABOUT IDEA HOMES <span class="text-red">REAL ESTATE</span>
+                                ABOUT IDEA HOMES <span class="text-red title">REAL ESTATE</span>
                             </h1>
                             <div class="lines">
-                                <div class="line1"></div>
-                                <div class="line2"></div>
-                                <div class="line3"></div>
+                                <div class="line1 bg-gray"></div>
+                                <div class="line2 bg-gray"></div>
+                                <div class="line3 bg-gray"></div>
                             </div>
                             <p class="text-red text-bold text-italic">
                                 A little about us and a breif history of how we started.
@@ -227,7 +234,12 @@
 
         <section class="search w-100 h-70">
             <div class="w-70 mg-auto">
-                <h1 class="title text-white">Advanced Search</h1>
+                <h1 class="title text-white">Advanced <span class="text-red title">Search</span> </h1>
+                <div class="lines">
+                    <div class="line1 bg-white"></div>
+                    <div class="line2 bg-white"></div>
+                    <div class="line3 bg-white"></div>
+                </div>
 
                 <div class="w-100 search-grid mgT-60">
                     <div class="fc">
@@ -298,8 +310,13 @@
         <section class="card-section w-100 bg-dark-white">
             <div class="w-70 mg-auto">
                 <h1 class="title text-upper">
-                    property <span class="text-red">listings</span>
+                    property <span class="text-red title">listings</span>
                 </h1>
+                <div class="lines">
+                    <div class="line1 bg-gray"></div>
+                    <div class="line2 bg-gray"></div>
+                    <div class="line3 bg-gray"></div>
+                </div>
                 <p class="desc">
                     We have Properties in these Areas View a list of Featured
                     Properties.
@@ -350,7 +367,7 @@
                     <div class="card bg-white mgT-40">
                         <div class="pic w-100 p-relative">
                             <div class="card-image" style="
-                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-2.jpg);
                   "></div>
                             <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
                                 <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
@@ -391,7 +408,7 @@
                     <div class="card bg-white mgT-40">
                         <div class="pic w-100 p-relative">
                             <div class="card-image" style="
-                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-3.jpg);
                   "></div>
                             <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
                                 <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
@@ -432,7 +449,7 @@
                     <div class="card bg-white mgT-40">
                         <div class="pic w-100 p-relative">
                             <div class="card-image" style="
-                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-4.jpg);
                   "></div>
                             <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
                                 <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
@@ -473,7 +490,7 @@
                     <div class="card bg-white mgT-40">
                         <div class="pic w-100 p-relative">
                             <div class="card-image" style="
-                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-5.jpg);
                   "></div>
                             <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
                                 <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
@@ -514,7 +531,7 @@
                     <div class="card bg-white mgT-40">
                         <div class="pic w-100 p-relative">
                             <div class="card-image" style="
-                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg);
+                    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-6.jpg);
                   "></div>
                             <div class="card-hover h-20 w-50 bg-red p-absolute p-center">
                                 <button class="p-1 move text-upper w-55 text-bold p-absolute p-center text-white">
@@ -617,8 +634,13 @@
         <section id="best-deal" class="w-100 h-110 bg-white">
             <div class="w-80 h-max mg-auto">
                 <h1 class="title text-upper">
-                    Best Deal <span class="text-red">Properties</span>
+                    Best Deal <span class="text-red title">Properties</span>
                 </h1>
+                <div class="lines">
+                    <div class="line1 bg-gray"></div>
+                    <div class="line2 bg-gray"></div>
+                    <div class="line3 bg-gray"></div>
+                </div>
                 <small>We have Properties in these Areas View a list of Featured
                     Properties.</small>
                 <div class="w-100 display-flex space-between mgT-40">
@@ -627,7 +649,7 @@
                             src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property.jpg"
                             alt="" />
                         <div class="img-info p-absolute z-2 p-3">
-                            <h3 class="project-name p-relative text-thin">Residential Project-d05</h3>
+                            <h3 class="project-name p-relative ">Residential Project-d05</h3>
 
                             <p class="desc mgT-50">
                                 <strong>Client: </strong>Bryan Doe Joe <br />
@@ -646,7 +668,7 @@
                             src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property-2.jpg"
                             alt="" />
                         <div class="img-info p-absolute z-2 p-3">
-                            <h3 class="project-name p-relative text-thin">Residential Project-d05</h3>
+                            <h3 class="project-name p-relative">Residential Project-d05</h3>
 
                             <p class="desc mgT-50">
                                 <strong>Client: </strong>Bryan Doe Joe <br />
@@ -694,6 +716,11 @@
                     <h1 class="title text-upper">
                         meet our team <span class="text-red">of professionals</span>
                     </h1>
+                    <div class="lines  display-flex align-center justify-center direction-column ">
+                        <div class="line1 bg-gray "></div>
+                        <div class="line2 bg-gray "></div>
+                        <div class="line3 bg-gray "></div>
+                    </div>
                     <p class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -714,7 +741,9 @@
                         </div>
                         <div>
                             <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
+                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
+
+
                         </div>
 
                         <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
@@ -740,12 +769,14 @@
                     <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
                         <div>
                             <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-1.png"
                                 alt="" />
                         </div>
                         <div>
                             <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
+
+
                         </div>
 
                         <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
@@ -771,12 +802,14 @@
                     <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
                         <div>
                             <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-3.png"
                                 alt="" />
                         </div>
                         <div>
                             <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
+
+
                         </div>
 
                         <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
@@ -802,12 +835,81 @@
                     <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
                         <div>
                             <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-4.png"
                                 alt="" />
                         </div>
                         <div>
                             <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
+
+
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">       
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-5.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
+
+
+                        </div>
+
+                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
+
+                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
+                            <h4 class="text-upper ">Joe Antonios</h4>
+                            <p class="desc mgT-20">
+                                Anita is an Arizona native and has experience with rental
+                                real estate investments. She enjoys kombucha & classic video
+                                games and tennis.
+                            </p>
+
+                        </div>
+
+                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
+                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
+                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
+                        <div>
+                            <img width="80%"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-6.png"
+                                alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
+
+
                         </div>
 
                         <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
@@ -833,44 +935,14 @@
                     <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
                         <div>
                             <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-7.png"
                                 alt="" />
                         </div>
                         <div>
                             <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
-                        </div>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
 
-                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
 
-                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
-                            <h4 class="text-upper ">Joe Antonios</h4>
-                            <p class="desc mgT-20">
-                                Anita is an Arizona native and has experience with rental
-                                real estate investments. She enjoys kombucha & classic video
-                                games and tennis.
-                            </p>
-
-                        </div>
-
-                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
-                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
-                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
-                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
-                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
-                        </div>
-
-                    </div>
-
-                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
-                        <div>
-                            <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
-                                alt="" />
-                        </div>
-                        <div>
-                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
                         </div>
 
                         <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
@@ -896,43 +968,14 @@
                     <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
                         <div>
                             <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
+                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-2.png"
                                 alt="" />
                         </div>
                         <div>
                             <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
-                        </div>
+                                                        <p class="desc"><small class="text-bolder">VP Product</small> </p>
 
-                        <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
 
-                        <div class="p-absolute transition-5 emp-info p-center text-white w-80 z-1">
-                            <h4 class="text-upper ">Joe Antonios</h4>
-                            <p class="desc mgT-20">
-                                Anita is an Arizona native and has experience with rental
-                                real estate investments. She enjoys kombucha & classic video
-                                games and tennis.
-                            </p>
-
-                        </div>
-
-                        <div class="emp-links  text-white w-100  z-9 p-absolute b-0 r-0">
-                            <a href="#"><i class="d-inline-block lab la-linkedin-in"></i></a>
-                            <a href="#"><i class="d-inline-block lab la-twitter"></i></a>
-                            <a href="#"><i class="d-inline-block lab la-facebook-f"></i></a>
-                            <a href="#"><i class="d-inline-block lab la-vimeo-v"></i></a>
-                        </div>
-
-                    </div>
-                    <div class="emp mgT-40 bg-white  p-2 z-0 text-center p-relative">
-                        <div>
-                            <img width="80%"
-                                src="https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/team-8.png"
-                                alt="" />
-                        </div>
-                        <div>
-                            <h4 class="text-upper mgT-10">Joe Antonios</h4>
-                            <p class="desc">VP Product</p>
                         </div>
 
                         <div class="emp-hover w-100 p-absolute t-0 l-0  text-white text-center"></div>
@@ -969,8 +1012,13 @@
             <div class="w-70 mg-auto h-max ">
                 <div class="w-70 mg-auto text-center">
                     <h1 class="title text-upper">
-                        our trusted <span class="text-red">partners</span>
+                        our trusted <span class="text-red title">partners</span>
                     </h1>
+                    <div class="lines display-flex align-center direction-column">
+                        <div class="line1 bg-gray"></div>
+                        <div class="line2 bg-gray"></div>
+                        <div class="line3 bg-gray"></div>
+                    </div>
                     <p class="desc ">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -1112,11 +1160,11 @@
                     <div class="w-25 text-gray ">
                         <p class="naming text-white text-upper">Connect with us</p>
                     <div class=" social-media mgT-20">
-                        <a href="#"><i class=" text-white lab la-facebook-square"></i></a>
-                        <a href="#"><i class=" text-white lab la-instagram"></i></a>
-                        <a href="#"><i class=" text-white lab la-facebook-square"></i></a>
-                        <a href="#"><i class=" text-white lab la-twitter-square"></i></a>
-                        <a href="#"><i class=" text-white lab la-pinterest-square"></i></a>
+                        <a href="#"><i class="transition-5 text-white lab la-facebook-square"></i></a>
+                        <a href="#"><i class="transition-5 text-white lab la-instagram"></i></a>
+                        <a href="#"><i class="transition-5 text-white lab la-facebook-square"></i></a>
+                        <a href="#"><i class="transition-5 text-white lab la-twitter-square"></i></a>
+                        <a href="#"><i class="transition-5 text-white lab la-pinterest-square"></i></a>
                     </div>
                     </div>
 

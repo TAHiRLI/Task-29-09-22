@@ -357,7 +357,9 @@
 .bg-green{
   background-color:    #9e8a08;
 }
-
+.bg-gray{
+    background-color: gray;
+}
 
 /* =============== */
 
